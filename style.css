@@ -26,11 +26,13 @@ body {
 
 .container .blog-header a {
   color: white !important; }
+.container .blog-header a:hover {
+  color: #333 !important; }
 
 .nav a {
   color: white !important; }
 
-.nav a:hover, .blog-header a:hover {
+.nav a:hover {
   color: #333 !important; }
 
 /*# sourceMappingURL=style.css.map */

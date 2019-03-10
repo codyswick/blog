@@ -54,11 +54,14 @@ body{
   .blog-header a{
     color:getColor(text)!important;
   }
-}
+  .blog-header a:hover{
+    color:getColor(primary)!important;
+  }
+}  
 .nav a{
   color:getColor(text)!important;
 
 }
-.nav a:hover,.blog-header a:hover{
+.nav a:hover{
   color:getColor(primary)!important;
 }
