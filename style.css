@@ -1,38 +1,43 @@
 /*SASS*/
 /*colors*/
 body {
-  width: 100%; }
+  width: 100%;
+  color: #E7DFDD !important;
+  /*header shadow*/ }
   body h1 {
-    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8); }
+    text-shadow: 4px 4px 7px #4717F6; }
   body h3, body h2 {
-    text-shadow: 8px 8px 7px #333 !important; }
+    text-shadow: 4px 4px 7px #4717F6 !important; }
   body .bg {
-    clip-path: polygon(47% 100%, 0 0, 100% 0) !important;
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: rgba(14, 11, 22, 0.9) !important;
     position: fixed;
     width: 100%;
     height: 100%;
     z-index: -12 !important; }
   body a {
-    color: #333; }
+    color: #E7DFDD; }
   body .jumbotron {
-    background: rgba(0, 0, 0, 0.6) !important; }
+    background: rgba(0, 0, 0, 0.6) !important;
+    border: 1px solid rgba(162, 57, 202, 0.4) !important; }
   body #about div {
-    box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.7);
     background-color: transparent !important;
-    border: 1px solid rgba(0, 0, 0, 0.1); }
+    border: 1px solid rgba(162, 57, 202, 0.4); }
   body .row .t {
-    box-shadow: 8px 8px rgba(0, 0, 0, 0.2) !important; }
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.7) !important;
+    border: 3px solid rgba(162, 57, 202, 0.4) !important; }
+  body .t strong {
+    color: #A239CA; }
 
 .container .blog-header a {
-  color: white !important; }
+  color: #E7DFDD !important; }
 .container .blog-header a:hover {
-  color: #333 !important; }
+  color: #A239CA !important; }
 
 .nav a {
-  color: white !important; }
+  color: #E7DFDD !important; }
 
 .nav a:hover {
-  color: #333 !important; }
+  color: #A239CA !important; }
 
 /*# sourceMappingURL=style.css.map */
