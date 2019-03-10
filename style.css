@@ -28,6 +28,9 @@ body {
     border: 3px solid rgba(162, 57, 202, 0.4) !important; }
   body .t strong {
     color: #A239CA; }
+  @media screen and (max-width: 412px) {
+    body .triangle {
+      opacity: 0 !important; } }
 
 .container .blog-header a {
   color: #E7DFDD !important; }
