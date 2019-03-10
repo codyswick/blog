@@ -59,6 +59,6 @@ body{
   color:getColor(text)!important;
 
 }
-.nav a:hover{
+.nav a:hover,.blog-header a:hover{
   color:getColor(primary)!important;
 }
