@@ -1,231 +1,189 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
+
   <meta charset="utf-8">
-  <title>Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <!--my style-->
-  <link rel="stylesheet" href="style.css">
+  <title>Fresh Prints</title>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class='bg'>
-    <svg class='triangle'height="100%" width="100%">
-      <polygon points="0,0 1350,0 675,850 675,850" style="fill:rgba(0,0,0,.4);stroke:rgba(0,0,0,.4);stroke-width:1" />
-    </svg>
-  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-4 pt-1">
-            <a class="text-muted" href="#">Subscribe</a>
-          </div>
-          <div class="col-4 text-center">
-            <a class="blog-header-logo text-dark" href="#">Blog</a>
-          </div>
-          <div class="col-4 d-flex justify-content-end align-items-center">
-            <a class="text-muted" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" class="mx-3" role="img" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" focusable="false" width="20" height="20">
-                <title>Search</title>
-                <circle cx="10.5" cy="10.5" r="7.5" />
-                <path d="M 21 21 l -5.2 -5.2" />
-              </svg>
-            </a>
-            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-          </div>
-        </div>
-      </header>
 
-      <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-          <a class="p-2 text-muted" href="#">About Me</a>
-          <a class="p-2 text-muted" href="#">Web Design</a>
-          <a class="p-2 text-muted" href="#">Technology</a>
-          <a class="p-2 text-muted" href="#">Contact</a>
-
-        </nav>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Yo Homes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About "Fresh"</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="post.html">To Bel-Snare</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Prints</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
 
-      <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">Fresh Prints or Fresh Prince</h1>
-          <p class="lead my-3">I'd like to take a minute, just sit right there, and ill tell you about how i became a prince of a town called belair.</p>
-          <p class="lead mb-0"><a class="text-white font-weight-bold" href="#">Continue reading...</a></p>
-        </div>
-      </div>
-
-
-      <div class="row mb-2 ">
-        <div class="  col-md-6">
-          <div class="t snip row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static ">
-              <strong class="d-inline-block mb-2">About Me</strong>
-              <h3 class="mb-0">Learn about the writer</h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a story all about how my life got fliped turned upside down....</p>
-              <a class="stretched-link" href="#about">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src="blog1.jpg" alt=""> </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="t snip row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2">Web Design</strong>
-              <h3 class="mb-0">Post title</h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a class="stretched-link" href="#">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src="blog1.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="t snip row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 ">Web Design</strong>
-              <h3 class="mb-0">Post title</h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a class="stretched-link" href="#">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src="blog1.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="t snip row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 ">Web Design</strong>
-              <h3 class="mb-0">Post title</h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a class="stretched-link" href="#">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src="blog1.jpg" alt="">
-            </div>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://images.pexels.com/photos/1756341/pexels-photo-1756341.jpeg?cs=srgb&dl=beautiful-casual-cute-1756341.jpg&fm=jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Fresh Prints</h1>
+            <span class="subheading">Into Bel-Snare</span>
           </div>
         </div>
       </div>
     </div>
-    <main class="container" role="main">
-      <div class="row">
-        <div class="col-md-8 blog-main">
-          <h3 class="pb-4 mb-4 font-italic border-bottom">
-            The Real Deal
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a href="post.html">
+            <img class='img-fluid'src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?cs=srgb&dl=architecture-beautiful-exterior-106399.jpg&fm=jpg" alt="">
+            <h2 class="post-title">
+              I'd like to take a minute, just sit right there!
+            </h2>
+            <h3 class="post-subtitle">
+              I'll tell you about how i became a Prints of a town called bel-snare.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Prints</a>
+            on September 24, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <img class='img-fluid'src="https://images.pexels.com/photos/1200854/pexels-photo-1200854.jpeg?cs=srgb&dl=animal-avian-bald-eagle-1200854.jpg&fm=jpg" alt="">
+            <h2 class="post-title">
+            In west Philadelphia born and raised
+            </h2>
+            <h3 class="post-subtitle">
+            On the playground where I spent most of my days.
           </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Prints</a>
+            on September 18, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <img class='img-fluid'src="https://images.pexels.com/photos/1521580/pexels-photo-1521580.jpeg?cs=srgb&dl=4k-wallpaper-action-automobile-1521580.jpg&fm=jpg" alt="">
+            <h2 class="post-title">
+              I whistled for a cab and when it came near.
+            </h2>
+            <h3 class="post-subtitle">
+              License plate said "fresh" and had a dice in the mirror.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Prints</a>
+            on August 24, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <img class='img-fluid'src="https://images.pexels.com/photos/62376/pexels-photo-62376.jpeg?cs=srgb&dl=clouds-fight-jumping-62376.jpg&fm=jpg" alt="">
+            <h2 class="post-title">
+              When a couple of guys, they were up to no good.
+            </h2>
+            <h3 class="post-subtitle">
+              Started making trouble in my neighbourhood.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Prints</a>
+            on July 8, 2019</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <hr>
 
-          <div class="blog-post">
-            <h2 class="blog-post-title">Life before Belair</h2>
-            <p class="blog-post-meta">January 1, 2019 by <a href="#">Prince</a></p>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum magni ea quasi, quidem maiores itaque animi dolor. Ea voluptate molestias repellat culpa quisquam corrupti pariatur omnis ipsum, dolorem cum excepturi.</p>
-            <hr>
-            <h2>The life</h2>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <h3>The Home</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <pre><code>Example code block</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <h3>The School</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            <ol>
-              <li>Vestibulum id ligula porta felis euismod semper.</li>
-              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-            </ol>
-            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-          </div><!-- /.blog-post -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">After the move</h2>
-            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-              consectetur purus sit amet fermentum.</p>
-            <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">New Post</h2>
-            <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
-
-          <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="#">Older</a>
-            <a tabindex="-1" class="btn btn-outline-secondary disabled" aria-disabled="true" href="#">Newer</a>
-          </nav>
-
-        </div><!-- /.blog-main -->
-
-        <aside class="col-md-4 blog-sidebar" id='about'>
-          <div class="p-4 mb-3 bg-light rounded">
-            <h4 class="font-italic">About</h4>
-            <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-
-          <div class="p-4 bg-light">
-            <h4 class="font-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
-          </div>
-
-
-        </aside><!-- /.blog-sidebar -->
-
-      </div><!-- /.row -->
-
-    </main>
-
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
 
 </body>
 
